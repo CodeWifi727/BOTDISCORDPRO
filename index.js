@@ -1,6 +1,5 @@
-import { Client } from "discord.js";
-const bot = new Client({intents: 3276799})
-import { token } from "./config.json";
+const Discord = require("discord.js")
+const bot = new Discord.Client({intents: 3276799})
+const config = require("./config.json")
 
-console.log("Connexion au bot...");
-bot.login(token)
+bot.login(config.intents.token)
