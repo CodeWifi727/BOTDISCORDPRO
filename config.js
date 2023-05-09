@@ -1,1 +1,4 @@
-export const token = "MTA0NDE2NDA5NTYyMjAwMDczMA.GvlFFF.of6V0TIeryDGCU1B2VTmxYqiL0omhsYDY3RD88";
+module.exports = {
+
+    token: "MTA0NDE2NDA5NTYyMjAwMDczMA.GNLguJ.CAiszArffOXPOKodht-7wJYUf0IAgH2TeelNvo"
+}
